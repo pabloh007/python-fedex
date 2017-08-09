@@ -132,7 +132,7 @@ class FedexBaseService(object):
             self.logger.info("Using production server.")
             # will point to use the right path when selected
             is_url = False
-            if config_obj.wsdl_path.starts_width('http') or config_obj.wsdl_path.starts_width('https'):
+            if config_obj.wsdl_path.startswith('http') or config_obj.wsdl_path.startswith('https'):
                 self.wsdl_path = '/'.join([config_obj.wsdl_path, wsdl_name])
                 is_url = True
             else:
