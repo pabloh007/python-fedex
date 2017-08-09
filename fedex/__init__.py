@@ -17,7 +17,7 @@ What python-fedex is not
         and returns a SOAP response through suds. This is easy enough to work with
         that no abstraction is needed. Doing so would limit your use of the data.
     - Anything more than a light wrapper.
-    
+
 A note on completeness
 ----------------------
 python-fedex was created for use with various internal projects over the years.
@@ -45,11 +45,11 @@ If you are wondering what attributes or variables are present, you'll want to
 refer to the Fedex Web Services documentation at http://fedex.com/developer/.
 Complete specification documents are there, which correspond very closely with
 what you'll be able to do with python-fedex.
-    
+
 Getting Support
 ---------------
 If you have any questions, problems, ideas, or patch submissions, please visit
 our U{Github project<http://github.com/gtaylor/python-fedex/>} and enter
 an issue in the U{Issue Tracker<http://github.com/gtaylor/python-fedex/issues>}.
 """
-VERSION = __version__ = '2.4.0'
+VERSION = __version__ = '2.4.1'
